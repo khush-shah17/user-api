@@ -20,21 +20,21 @@ This project implements a set of User APIs using Node.js and Express.js with Mon
 
 ## 1. Clone the repository
    ```bash
-   git clone <repository_url>
-   cd api
+   git clone https://github.com/khush-shah17/user-api.git
+   cd user-api
 
 ## 2. Install dependencies
-npm install <dependency name>
-for eg: 
-   bcryptjs, body-parser, cookie-parser, cors, dotenv, express, js, jsonwebtoken, mongoose, nodemailer, nodemon
+   npm install <dependency name>
+   for eg: 
+      bcryptjs, body-parser, cookie-parser, cors, dotenv, express, js, jsonwebtoken, mongoose, nodemailer, nodemon
 
 ## 3. Create a .env file in the root directory and add the following:
-PORT=3000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_generated_jwt_secret_key
+   PORT=3000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_generated_jwt_secret_key
 
 ##4. Start the server
-npm run dev
+   npm run dev
 
 
 ### API/Auth Routes
